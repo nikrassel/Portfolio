@@ -95,3 +95,15 @@ button:focus {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.chapte {
+  text-align: center;
+}
+
+@media (max-width: 700px){
+  /* позволяет изменять оформление при определенных условиях, в данном случае, если, разрешение 
+  страницы будет до 700 пикселей, то отображение верхушки выстроиться в столбик по центру */
+  .container{
+      width: 700px;
+  }
+}
